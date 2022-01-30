@@ -1,0 +1,33 @@
+:root {
+    --body-border: 2px solid rgb(0, 110, 110);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 90%;
+    margin: 10px;
+}
+
+body {
+    background-color: darkcyan;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: var(--body-border);
+}
+
+#header {
+    border: 2px solid black;
+    text-align: center;
+}
